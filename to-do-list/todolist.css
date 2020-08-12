@@ -42,10 +42,6 @@ ul li.checked {
   text-decoration: line-through;
 }
 
-li:last-child {
-  border-radius: 0 0 20px 20px;
-}
-
 /* Add a "checked" mark when clicked on */
 ul li.checked::before {
   content: '';
@@ -75,11 +71,10 @@ ul li.checked::before {
 
 /* Style the header */
 .header {
-  background-color: rgb(49, 151, 129);
+  background-color: #f44336;
   padding: 30px 40px;
   color: white;
   text-align: center;
-  border-radius: 20px 20px 0 0;
 }
 
 /* Clear floats after the header */
@@ -93,8 +88,8 @@ ul li.checked::before {
 input {
   margin: 0;
   border: none;
-  border-radius: 10px 0 0 10px;
-  width: 85%;
+  border-radius: 0;
+  width: 75%;
   padding: 10px;
   float: left;
   font-size: 16px;
@@ -103,24 +98,17 @@ input {
 /* Style the "Add" button */
 .addBtn {
   padding: 10px;
-  height: 38px;
-  width: 15%;
+  width: 25%;
   background: #d9d9d9;
   color: #555;
   float: left;
   text-align: center;
-  font-size: 45px;
-  line-height: 10px;
+  font-size: 16px;
   cursor: pointer;
   transition: 0.3s;
-  border-radius: 0 10px 10px 0;
+  border-radius: 0;
 }
 
 .addBtn:hover {
   background-color: #bbb;
-}
-
-
-.draggable.dragging{
-  opacity: .5;
 }
